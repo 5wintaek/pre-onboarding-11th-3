@@ -32,7 +32,7 @@ export function IssueList() {
             onClick={() => {
               navigate(`/detail/${issue.number}`);
             }}
-            key={issue.id}
+            key={index}
             issue={issue}
           >
             <IssueListAd />
@@ -42,7 +42,7 @@ export function IssueList() {
             onClick={() => {
               navigate(`/detail/${issue.number}`);
             }}
-            key={issue.id}
+            key={index}
             issue={issue}
           />
         )
