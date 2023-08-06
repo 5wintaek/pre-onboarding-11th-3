@@ -9,10 +9,8 @@ import { ErrorPage } from './ErrorPage';
 
 function DetailPage() {
   const { number } = useParams();
-  const { isLoading, issue, fetchIssue, fetchError } =
-    useContext(GithubContext);
+  const { issue, fetchIssue, fetchError } = useContext(GithubContext);
 
-  // console.log('id입니다', number);
   useEffect(() => {
     if (number) {
       const detailNumber = parseInt(number);
