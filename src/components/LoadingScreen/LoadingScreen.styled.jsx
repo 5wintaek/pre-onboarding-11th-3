@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Wrap = styled.div`
+  position: relative;
+`;
+
 export const Background = styled.div`
   position: absolute;
   width: 100vw;
@@ -7,7 +11,6 @@ export const Background = styled.div`
   top: 0;
   left: 0;
   background: #ffffffb7;
-  z-index: 999;
   display: flex;
   flex-direction: column;
   align-items: center;

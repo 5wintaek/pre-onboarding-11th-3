@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef, RefObject } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 const useInfiniteScroll = (target) => {
   const [intersecting, setIntersecting] = useState(false);

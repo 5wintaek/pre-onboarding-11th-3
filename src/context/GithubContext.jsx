@@ -19,9 +19,9 @@ export const GithubProvider = ({ children }) => {
   const [issueListPage, setIssueListPage] = useState(1);
 
   const fetchIssueList = async () => {
-    setIsLoading(true);
     try {
       const currentPage = issueListPage;
+      setIsLoading(true);
       const data = await getIssueList(10, currentPage);
       setIssueListPage((prev) => prev + 1);
       setIssueList((prevList) => [...prevList, ...data]);
