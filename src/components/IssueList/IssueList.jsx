@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { ErrorPage } from '../../Pages/ErrorPage';
 import useInfiniteScroll from '../../hooks/useInfiniteScroll';
 import ScrollObserver from '../ScrollObserver/ScrollObserver';
+import { isMultipleOfFive } from '../../utils/isMultipleOfFive';
 
 export function IssueList() {
   const { issueList, fetchIssueList, fetchError } = useContext(GithubContext);
@@ -27,7 +28,7 @@ export function IssueList() {
   return (
     <IssueWrap>
       {issueList.map((issue, index) =>
-        (index + 1) % 4 === 0 ? (
+        isMultipleOfFive(index + 1) ? (
           <IssueListItem
             onClick={() => {
               navigate(`/detail/${issue.number}`);
