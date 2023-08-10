@@ -33,7 +33,7 @@ $ npm run start
 ![reactMarkdown](https://img.shields.io/badge/react--markdown-8.0.6-00A98F?logo=reactMarkdown)
 
 ## 폴더구조
-
+```bash
 📦src
 ┣ 📂Pages
 ┃ ┣ 📜DetailPage.jsx
@@ -56,6 +56,7 @@ $ npm run start
 ┣ 📂utils
 ┣ 📂Pages
 ┗ 📜index.jsx
+```
 
 ---
 
