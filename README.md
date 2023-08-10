@@ -19,8 +19,8 @@ $ npm run start
 ```
 
 ## 전체 구동 화면
+![preonboarding-3](https://github.com/5wintaek/pre-onboarding-11th-3/assets/109938280/dfb0c504-4269-44d4-ad84-089c434b1608)
 
-![Alt text](preonboarding-3.gif)
 
 ## 기술스택
 
