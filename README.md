@@ -24,6 +24,7 @@ $ npm run start
 ## 프로젝트 링크
 > [배포링크 바로가기](https://5wintaek-preonboarding-3.netlify.app/)
 <br/>
+
 > [팀원링크 바로가기](https://github.com/wanted-11th-team13/pre-onboarding-11th-3-13)
 
 ## 기술스택
