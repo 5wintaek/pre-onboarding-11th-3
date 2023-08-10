@@ -22,8 +22,8 @@ $ npm run start
 ![preonboarding-3](https://github.com/5wintaek/pre-onboarding-11th-3/assets/109938280/dfb0c504-4269-44d4-ad84-089c434b1608)
 
 ## 프로젝트 링크
-[배포링크 바로가기](https://5wintaek-preonboarding-3.netlify.app/)
-[팀원링크 바로가기](https://github.com/wanted-11th-team13/pre-onboarding-11th-3-13)
+> [배포링크 바로가기](https://5wintaek-preonboarding-3.netlify.app/)
+> [팀원링크 바로가기](https://github.com/wanted-11th-team13/pre-onboarding-11th-3-13)
 
 ## 기술스택
 
